@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 12 - Tabelas</title>
+</head>
+<body>
+    <h1>Exemplos Tabelas</h1>
+    <table border="5">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Camiseta</td>
+                <td>R$ 39,90</td>
+            </tr>
+            <tr>
+                <td>Calça Jeans</td>
+                <td>R$ 89,90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>R$129,80</td>
+            </tr>
+        </tfoot>   
+    </table>
+
+    <hr>
+
+    <table border="5">
+            <tr>
+                <th>Produto</th>
+                <th>preço</th>
+                <th colspan="2">Disponibilidade</th>
+                <!-- colspan para coluna-->
+            </tr>
+            <tr>
+                <td>Camiseta</td>
+                <td>R$ 39,90</td>
+                <th rowspan="2">Disponivel</th>
+                <!-- rowspan para linha-->
+                <td>Entrega 24h</td>
+            </tr>
+            <tr>
+                <td>Tenis</td>
+                <td>R$129,80</td>
+                <td>Entrega 24h</td>
+            </tr>
+        <tfoot>
+            <tr>
+                <td>Calça Jeans</td>
+                <td>R$89,90</td>
+                <td>Indisponivel</td>
+                <td>--</td>
+            </tr>
+        </tfoot>   
+    </table>
+
+    <hr>
+
+    <table border="5">
+        <thead>
+            <th rowspan="2">Funcionarios</th>
+            <th rowspan="2">Semestre</th>
+            <th colspan="2">Gastos</th>
+            <th colspan="2">Lucros</th>
+
+            <tr>
+                <th>Líquido</th>
+                <th>Bruto</th>
+                <th>Líquido</th>
+                <th>Bruto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">João</td>
+                <td>1°</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>2°</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Maria</td>
+                <td>1°</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>300</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>2°</td>
+                <td>1000</td>
+                <td>1200</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+        </tbody>
+    </table>
+
+    
+</table>
+    
+</body>
+</html>
