@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* Links */
+h1{
+    color: brown;
+    font-weight: bold;
+}
+
+li{
+    color: gray;
+    font-weight: bold;
+}
+li span{
+    color: blueviolet;
+}
+
+li a{
+    color: brown;
+}
+/* link youtube */
+.interface{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.interface a{
+    color: brown;
+}
+
+.interface span{
+    color: gray;
+}
+
+
+.texto span{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 50px;
+}
